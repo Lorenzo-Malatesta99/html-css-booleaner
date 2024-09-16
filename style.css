@@ -1,0 +1,32 @@
+.logosvg{
+    background-image: url(./img/pattern.png);
+    background-size: contain;
+    height: auto;
+    background-color:rgb(37, 130, 237);
+}
+
+.resize-logo{
+    width: 300px;
+    height: auto;
+    padding-left: 10px;
+}
+main{
+    padding-left: 10px;
+}
+h1{
+    padding-right: 15%;
+    font-size: 45px;
+}
+.trasparente{
+    color: rgba(240, 255, 255, 0);
+}
+.autore{
+    color: rgb(51, 203, 249);
+}
+.container-1{
+    color: rgba(0, 0, 0, 0.411);
+}
+.container-2{
+    margin-top: 2px;
+    font-size: 80%;
+}
