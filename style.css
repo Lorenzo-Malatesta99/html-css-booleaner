@@ -1,3 +1,6 @@
+body{
+    font-size: 20px;
+}
 .logosvg{
     background-image: url(./img/pattern.png);
     background-size: contain;
@@ -16,6 +19,7 @@ main{
 h1{
     padding-right: 15%;
     font-size: 45px;
+    margin-bottom: auto;
 }
 .trasparente{
     color: rgba(240, 255, 255, 0);
@@ -29,4 +33,29 @@ h1{
 .container-2{
     margin-top: 2px;
     font-size: 80%;
+}
+.calce{
+    font-size: 60%;
+}
+.testo{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.posizione-ul{
+    margin-left: -20px;
+}
+.parametri-tb{
+    background-color: rgb(37, 130, 237);
+    color: white;
+    border-color:rgb(37, 130, 237) ;
+}
+table{
+    text-align: left;
+    background-color: rgb(168, 203, 243);
+    border-spacing: 0;
+    border-collapse: collapse;
+    
+}
+.riga2{
+    background-color: white;
 }
