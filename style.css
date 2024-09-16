@@ -3,11 +3,15 @@ body{
 }
 .logosvg{
     background-image: url(./img/pattern.png);
-    background-size: contain;
-    height: auto;
+    background-size: auto;
     background-color:rgb(37, 130, 237);
+    
 }
-
+.immagini-alto img{
+    display: inline;
+    width: 48%;
+    height: 400px;
+}
 .resize-logo{
     width: 300px;
     height: auto;
@@ -23,6 +27,7 @@ h1{
 }
 .trasparente{
     color: rgba(240, 255, 255, 0);
+    padding-bottom: 40px;
 }
 .autore{
     color: rgb(51, 203, 249);
@@ -50,32 +55,33 @@ h1{
     border-color:rgb(37, 130, 237) ;
 }
 table{
+    margin-top: 35px;
     text-align: left;
     background-color: rgb(168, 203, 243);
     border-collapse: collapse;
-    
+    width: 100%;
+}
+th{
+    width: 20%;
 }
 .riga2{
     background-color: white;
 }
-.immagini-alto{
-    display: inline;
-    width: 1px;
-    height: auto;
-}
-.immagini-finale1{
+
+.immagine1{
     background-image: url(./img/monitor.jpg);
-    height: 200px;
-    width: 300px;
-    margin-top:10px;
-    color: white;
-    padding: 10px;
 }
-.immagini-finale2{
+.immagine2{
     background-image: url(./img/graph.jpg);
+}
+.finale{
     height: 200px;
     width: 300px;
     margin-top:10px;
     color: white;
     padding: 10px;
+    font-size: 30px;
+}
+.dati{
+    width: 50%;
 }
