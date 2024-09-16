@@ -52,10 +52,30 @@ h1{
 table{
     text-align: left;
     background-color: rgb(168, 203, 243);
-    border-spacing: 0;
     border-collapse: collapse;
     
 }
 .riga2{
     background-color: white;
+}
+.immagini-alto{
+    display: inline;
+    width: 1px;
+    height: auto;
+}
+.immagini-finale1{
+    background-image: url(./img/monitor.jpg);
+    height: 200px;
+    width: 300px;
+    margin-top:10px;
+    color: white;
+    padding: 10px;
+}
+.immagini-finale2{
+    background-image: url(./img/graph.jpg);
+    height: 200px;
+    width: 300px;
+    margin-top:10px;
+    color: white;
+    padding: 10px;
 }
